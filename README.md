@@ -42,6 +42,6 @@ Where and when should I dash to maximise delivery efficiency based on my histori
 ![Region Hour Heatmap](region_hour_heatmap.png)
 
 ## Final Outcome
-Based on the analysis, the most effective strategy for my historical delivery patterns is to dash in **Kelvin Grove, Nundah, or Everton Park** during the **late morning and lunch period (10:00–14:00)**, particularly on **Thursday and Friday**.
+Based on the analysis, the most effective strategy based on my historical delivery patterns is to dash in **Kelvin Grove, Nundah, or Everton Park** during the **late morning and lunch period (10:00–14:00)**, particularly on **Thursday and Friday**.
 
 These findings are based on my own delivery history and reflect my working style as a **motorbike rider who prefers morning shifts**. Drivers with similar working conditions may also benefit from focusing on these regions and time periods.
