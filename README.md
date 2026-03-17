@@ -1,4 +1,4 @@
-# doordash-delivery-efficiency-analysis
+# Doordash Delivery Efficiency Analysis
 
 Data analytics project analysing my historical DoorDash delivery data in Brisbane to identify where and when I deliver most efficiently.
 
