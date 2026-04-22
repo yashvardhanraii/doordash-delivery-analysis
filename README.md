@@ -1,33 +1,40 @@
-# Doordash Delivery Efficiency Analysis
+# DoorDash Delivery Efficiency Analysis
 
-Data analytics project analysing my historical DoorDash delivery data in Brisbane to identify where and when I deliver most efficiently.
+## Objective
+Use my own delivery data to figure out **where and when I should work to maximise deliveries per hour** and avoid low-efficiency shifts.
 
-This project uses real delivery timestamps to examine patterns in delivery throughput and help determine the most effective regions and time periods to dash.
+---
 
-## Tools
-Python, Pandas, Plotly, Jupyter Notebook
+## Project Overview
+- Analysed historical DoorDash delivery data (Brisbane)  
+- Focused on delivery gaps, timing, and location performance  
+- Used data to replace guesswork with a clearer dashing strategy  
 
-## Framework
-This project follows the **QDAVI (Question, Data, Analysis, Visualisation, Insight)** framework to structure the analysis.
+---
 
-## Main Question
-Where and when should I dash to maximise delivery efficiency based on my historical data?
+## Key Question
+👉 When and where should I dash to maximise delivery efficiency?
 
-## What I analysed
-- Delivery efficiency based on time gaps between consecutive deliveries
-- Average deliveries per hour by region
-- Delivery efficiency across hours of the day
-- Delivery performance across days of the week
-- Region–hour, region–day, and hour–day combinations to identify strong delivery periods
+---
 
-## Key insights
-- Kelvin Grove, Nundah, and Everton Park showed the highest delivery efficiency, averaging around **6 deliveries per hour**.
-- Delivery efficiency was strongest during the **late morning and lunch period (10:00–14:00)**.
-- **Thursday and Friday** showed the highest delivery throughput across the week.
-- The **Brisbane CBD showed lower efficiency**, likely due to parking constraints, walking distance to restaurants, and higher driver competition.
-- Several patterns varied depending on when I chose to dash, highlighting the importance of personal dashing schedules when analysing this data.
+## Key Insights
+- Kelvin Grove, Nundah, and Everton Park consistently performed best, averaging **~6 deliveries per hour**  
+- The most efficient time window was **10:00–14:00 (late morning to lunch)**  
+- **Thursday and Friday** delivered the highest overall throughput  
+- The **Brisbane CBD performed significantly worse**, mainly due to parking issues, walking distance, and higher competition  
+- Delivery efficiency varied a lot depending on when I chose to work, showing how important shift timing is  
 
-## Example Visualisations
+---
+
+## What I took from this
+- Choosing the right **location matters as much as working more hours**  
+- Midday shifts are far more productive than evenings for my setup  
+- Avoiding low-efficiency areas like the CBD can significantly improve overall output  
+- Small changes in timing and location can have a big impact on total deliveries  
+
+---
+
+## Visualisations
 
 ### Average Deliveries per Hour by Region
 ![Delivery Efficiency by Region](region_efficiency.png)
@@ -41,7 +48,28 @@ Where and when should I dash to maximise delivery efficiency based on my histori
 ### Region and Hour Delivery Efficiency Heatmap
 ![Region Hour Heatmap](region_hour_heatmap.png)
 
-## Final Outcome
-Based on the analysis, the most effective strategy based on my historical delivery patterns is to dash in **Kelvin Grove, Nundah, or Everton Park** during the **late morning and lunch period (10:00–14:00)**, particularly on **Thursday and Friday**.
+---
 
-These findings are based on my own delivery history and reflect my working style as a **motorbike rider who prefers morning shifts**. Drivers with similar working conditions may also benefit from focusing on these regions and time periods.
+## Tools
+- Python  
+- Pandas  
+- Plotly  
+- Jupyter Notebook  
+
+---
+
+## Approach
+- Calculated delivery gaps between consecutive orders  
+- Estimated deliveries per hour across different dimensions  
+- Compared performance by:
+  - Region  
+  - Hour of day  
+  - Day of week  
+  - Combined patterns (region + time)  
+
+---
+
+## Final Outcome
+This analysis helped me build a **clear, data-driven dashing strategy**, focusing on high-performing areas and time periods instead of relying on trial and error.
+
+The results reflect my own working style (motorbike + morning shifts), but the same approach can be applied to optimise delivery performance in similar conditions.
